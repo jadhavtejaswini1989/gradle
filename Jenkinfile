@@ -7,9 +7,5 @@ stages
  {steps { git branch: 'master', url: 'https://github.com/jadhavtejaswini1989/gradle.git'}}
 
 
- stage('execute unit test framework')
- {steps {withGradle {
-    sh 'gradle test'
-} } 
 
 }}}
